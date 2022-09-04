@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zetu Future</title>
+    <script src="https://kit.fontawesome.com/07212c3e9d.js" crossorigin="anonymous"></script> 
+    <link rel="stylesheet" href="styles.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/> -->
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="nav">
+                <ul>
+                    <a href=""><img src="assets/Screenshot_from_2022-08-30_01-23-53-removebg-preview.png" alt="Logo" class="jpg"></a>
+                    <li> <a href="">HOME</a> </li>
+                    <li> <a href="">Products</a> </li>
+                    <li> <a href="">Support</a> </li>
+                    <li> <a href=""><i class="fa-solid fa-magnifying-glass"></i></a> </li>
+                    <li> <a href=""><i class="fa-light fa-cart-shopping-fast">Cart </i></a> </li>
+                </ul>
+    </div>
+    <section class = "swiper mySwiper">  
+        <div class="swiper-container">
+        <div id="card_id1" class="swiper-wrapper"> 
+            <!-- <div class="card swiper-slide">
+                <div class="card_image">
+                        <img src="/assets/0591f6a25bf827f1959e0dbe760c6c1c.jpg" alt="">
+                </div>
+                <div class="card_content" >
+                       <span class="card_title">${element.title}</span>
+                        <p class="card_text">${element.description}</p>
+                </div> 
+          </div> -->
+        </div>
+        </div>
+    </section>
+    <div class="show">
+        <div class="stockOpt">
+            <p>All Available</p>
+        </div>
+        <div class="business">
+        <h1 id="title">Business type</h1>
+        <p id="disc">Pro Package @ $100 minimum</p>
+        <img id="picha" src="assets/Screenshot_from_2022-09-01_11-22-20-removebg-preview.png" alt=""><br>
+        <input id="elementId" type="button" value="Add to cart">
+    </div>
+</div>
+    <div class="footer">
+    <div class="content">
+        <div class="subfooter">
+            <div class="img">
+                <h3><img src="assets/Screenshot_from_2022-08-30_01-23-53-removebg-preview.png" alt="" class="jpg">
+                Zetu Future</h3>
+            </div>   
+            <cite>We carry your assemblying burden!</cite>
+                <div class="icon">
+                    <ul>
+                        <li><a href=""><i class="fa-brands fa-facebook-f"></i>Facebook</a></li>
+                        <li><a href=""><i class="fa-brands fa-twitter"></i>Twitter</a></li>
+                        <li><a href=""><i class="fa-brands fa-instagram"></i>Instagram</a></li>
+                    </ul>
+                </div>
+        </div>
+        <div class="subfooter">
+            <h3>Company</h3>
+                <ul>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Support</a></li>
+                </ul>
+        </div>
+        <div class="subfooter">
+            <h3>Products</h3>
+                    <ul>
+                        <li><a href="">Regular</a></li>
+                        <li><a href="">Special Package</a></li>
+                    </ul>
+        </div>
+        <div class="subfooter">
+            <h3>Others</h3>
+        <ul>
+            <li><a href="">Term of services</a></li>
+            <li><a href="">Privacy and policy</a></li>
+        </ul>
+        </div>     
+    </div>
+    <hr>
+    <div class="copyright">
+        <p>© 2022 ZetuFuture.com. All rights reserved.</p>
+    </div>
+    </div>
+    <script defer src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".swiper-wrapper", {
+          effect: "coverflow",
+          grabCursor: true,
+          centeredSlides: true,
+          slidesPerView: "auto",
+          coverflowEffect: {
+            rotate: 50,
+            stretch: 0,
+            depth: 100,
+            modifier: 2,
+            slideShadows: true,
+          },
+          pagination: {
+            el: ".swiper-pagination",
+          },
+        });
+      </script>
+</body>
+</html>

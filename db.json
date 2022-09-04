@@ -1,0 +1,40 @@
+{
+  "Business": [
+    {
+      "title": "Juices Vender Shop",
+      "category":"Advance Package @ $110",
+      "description":"All essential tools for initiating a juice poular are provided at an affordable price. click the more button to pick your choice."
+    },
+    {
+      "title": "Salon Shop",
+      "category":"Pro Package @ $100",
+      "description":"This Salon shop package has tools and equipment that are efficient in production thus will maximaze your profit for long term business life."
+    },
+    {
+      "title": "Music Studio",
+      "category":"Basic Package @ $300",
+      "description":"This package has affordable and long lasting tools and equipment for world class production of music."
+    },
+    {
+      "title": "Barber Shop",
+      "category":"Max-Pro Package @ $100",
+      "description":"Here we provide equipments that are efficient and production effective. click the more button to further explore."
+    },
+    {
+      "title": "Computer Repair",
+      "category":"Regular Package @ $200",
+      "description":"All the vital tools for reparing of computer and electronic related device are provided in this package click the more button to pick your choice."
+    },
+    {
+      "title": "Electronic Repair",
+      "category":"Basic Package @ $210",
+      "description":"All essentials are provided for effective and easy to use tools."
+    },
+    {
+      "title": "Web Designer",
+      "category":"Regular Package @ $150",
+      "description":"As a programer you need a better tools to use high productivity in coding click the more button to meet your needs."
+    }
+    
+  ]
+}
