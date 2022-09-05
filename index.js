@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
 })
 // fetch data to convert to js object
 function business (){
-      fetch('http://localhost:3000/Business').then((resp)=> resp.json())
+      fetch('https://api-project00.herokuapp.com/Business').then((resp)=> resp.json())
       .then(data => {
             // segment the object to a sigle variable
             data.forEach(element => {
